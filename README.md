@@ -28,3 +28,12 @@ or simply download all the langaues pack available by using the command
 ```
 $ sudo apt-get install tesseract-ocr-all
 ```
+### Usage
+Usage of testing teseractocr or running is quite simple. You can directly right the output to txt file even. Its template will look alike something
+```
+$ tesseract [image_path] [file_name]
+```
+for example my image is test_image.png and I want an output in output_text.txt, then it would look like something this
+```
+$ tesseract test_image.png output_text.txt
+```

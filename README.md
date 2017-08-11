@@ -38,6 +38,7 @@ for example my image is test_image.png and I want an output in output_text.txt, 
 ```
 $ tesseract test_image.png output_text.txt
 ```
+for more command line arguments please refer to the link https://github.com/tesseract-ocr/tesseract/wiki/Command-Line-Usage.
 ## Installation of PyOCR in Ubuntu
 PyOCR is a python wrapper for tesseract. It allows you connect programatically to 
 tesseract and easily get the wordlist and bounding boxes as per requirment. For installing it simply install it by using following command's

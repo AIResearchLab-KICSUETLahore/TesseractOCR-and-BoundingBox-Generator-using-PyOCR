@@ -63,4 +63,9 @@ $ convert source.jpg -monochrome destination.jpg (true black and white)
 $ convert source.jpg -separate destination.jpg (separate into gray channels)
 ```
 ## Extracting BoundingBox into CSV format using TesseractOCR and PyOCR
-
+Clone and download the files attached to the repository. Simply place it any where in the hard disk. Open command line and run the wordlist.py. It would ask for the directory and the extension of the images. Provide the system with it and it would run in batch on all the files in that specified directory and wordlist.csv will be created containing the word, its x0, y0, x1 and y1 coordinates.
+```
+$ python wordlist.py
+```
+## Contact
+For any further help regarding this you can contact at mailto:abdullah.akmal@kics.edu.pk or mailto:agfa.94@gmail.com. Or leave the comment.

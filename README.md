@@ -1,4 +1,4 @@
-# TesseractOCR-and-WorldList-Generator-using-PYOCR
+# TesseractOCR-and-BoundingBox-Generator-using-PYOCR
 This tutorial will guide you throught the installation process of TesseractOCR 3.04.01 with automatically installation 
 of Leptonica1.73. Alongside this installation of PYOCR and extracting the wordlist and also how to get bounding box 
 using tesseractOCR. 
@@ -37,3 +37,11 @@ for example my image is test_image.png and I want an output in output_text.txt, 
 ```
 $ tesseract test_image.png output_text.txt
 ```
+## Installation of PYOCR in Ubuntu
+PYOCR is a python wrapper for tesseract. It allows you connect programatically to 
+tesseract and easily get the wordlist and bounding boxes as per requirment. For installing it simply install it by using following command's
+```
+$ sudo pip install pyocr  # Python 2.7
+$ sudo pip3 install pyocr  # Python 3.X
+```
+For further information on PYOCR please Visit https://github.com/openpaperwork/pyocr. 

@@ -45,3 +45,20 @@ $ sudo pip install pyocr  # Python 2.7
 $ sudo pip3 install pyocr  # Python 3.X
 ```
 For further information on PYOCR please Visit https://github.com/openpaperwork/pyocr. 
+
+## Conversion of files to Images in Ubuntu
+If you have an image you might want to convert it in grayscale for better OCR extraction. While if the data set is not available in Image format. It can easily be converted. For example if the file is in PDF you can simply convert it into any image format like this
+```
+$ for f in *.pdf; do convert -density 300 "$f" -depth 8 -strip -background white -alpha off -threshold 85% "$f.PNG"; done
+```
+For convert command imagemagick is required which can easily be installed as shown
+```
+$ sudo apt-get install imagemagick
+```
+If you file is in image format and you want to convert it into grayscale you can simply use this statement
+```
+$ convert source.jpg -colorspace Gray destination.jpg (true grayscale only)
+$ convert source.jpg -monochrome destination.jpg (true black and white)
+$ convert source.jpg -separate destination.jpg (separate into gray channels)
+```
+

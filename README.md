@@ -3,7 +3,7 @@ This tutorial will guide you throught the installation process of TesseractOCR 3
 of Leptonica1.73. Alongside this installation of PyOCR and extracting the wordlist and also how to get bounding box 
 using tesseractOCR. 
 ## Installation of TesseractOCR in Ubuntu
-### Installing Depedencies
+### Installing Dependencies
 To run tesseract fine few of the dependencies are necessary which can be installing by simply using following commands.
 ```
 $ sudo apt-get install libpng-dev libjpeg-dev libtiff-dev zlib1g-dev
